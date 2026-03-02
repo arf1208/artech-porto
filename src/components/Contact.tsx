@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "motion/react";
 import { useState } from "react";
-import { Send, CheckCircle, Mail, Phone, MapPin } from "lucide-react";
+import { Send, CheckCircle, Mail, Phone, MapPin, Instagram, Music2 } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -79,6 +79,24 @@ export default function Contact() {
                 <div>
                   <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mb-1">Location</p>
                   <p className="text-lg font-bold text-slate-900">Lamongan, Indonesia</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-6 group">
+                <div className="w-14 h-14 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-white transition-all duration-300 shadow-sm">
+                  <Instagram size={24} />
+                </div>
+                <div>
+                  <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mb-1">Instagram</p>
+                  <p className="text-lg font-bold text-slate-900">@arf1208</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-6 group">
+                <div className="w-14 h-14 rounded-2xl bg-slate-50 border border-slate-100 flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-white transition-all duration-300 shadow-sm">
+                  <Music2 size={24} />
+                </div>
+                <div>
+                  <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mb-1">TikTok</p>
+                  <p className="text-lg font-bold text-slate-900">@artech.id</p>
                 </div>
               </div>
             </div>

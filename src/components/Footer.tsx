@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Github, Linkedin, Twitter, Instagram, ArrowUp } from "lucide-react";
+import { Github, Linkedin, Twitter, Instagram, ArrowUp, Music2 } from "lucide-react";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -11,6 +11,7 @@ export default function Footer() {
     { icon: <Linkedin size={20} />, href: "#", label: "Linkedin" },
     { icon: <Twitter size={20} />, href: "#", label: "Twitter" },
     { icon: <Instagram size={20} />, href: "#", label: "Instagram" },
+    { icon: <Music2 size={20} />, href: "#", label: "TikTok" },
   ];
 
   return (
@@ -67,7 +68,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
-                Jakarta, Indonesia
+                Lamongan, Indonesia
               </li>
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
@@ -75,7 +76,15 @@ export default function Footer() {
               </li>
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
-                +62 812 3456 7890
+                +62 858 1268 2418
+              </li>
+              <li className="text-slate-400 flex items-start gap-3">
+                <span className="text-brand mt-1">•</span>
+                @arf1208 (Instagram)
+              </li>
+              <li className="text-slate-400 flex items-start gap-3">
+                <span className="text-brand mt-1">•</span>
+                @artech.id (TikTok)
               </li>
             </ul>
           </div>
