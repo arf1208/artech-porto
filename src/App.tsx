@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Collaboration from "./components/Collaboration";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
 import { motion, AnimatePresence } from "motion/react";
 import { useEffect, useState } from "react";
 
@@ -34,7 +35,7 @@ export default function App() {
               className="flex flex-col items-center"
             >
               <div className="text-4xl font-black tracking-tighter text-brand mb-4">
-                AR<span className="text-slate-900">TECH</span>
+                ARF<span className="text-slate-900">TECH</span>
               </div>
               <div className="w-48 h-1 bg-slate-100 rounded-full overflow-hidden relative">
                 <motion.div
@@ -64,6 +65,7 @@ export default function App() {
             <Contact />
           </main>
           <Footer />
+          <WhatsAppButton />
         </motion.div>
       )}
     </div>

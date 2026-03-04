@@ -28,7 +28,7 @@ export default function Footer() {
               viewport={{ once: true }}
               className="text-3xl font-bold tracking-tighter mb-6"
             >
-              AR<span className="text-brand">TECH</span>
+              ARF<span className="text-brand">TECH</span>
             </motion.div>
             <p className="text-slate-400 text-lg mb-8 max-w-md leading-relaxed">
               Engineering the Future with Innovation. Software Developer & IoT Enthusiast yang berdedikasi untuk menciptakan solusi teknologi modern.
@@ -72,7 +72,7 @@ export default function Footer() {
               </li>
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
-                hello@artech.id
+                hello@arftech.id
               </li>
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
@@ -84,7 +84,7 @@ export default function Footer() {
               </li>
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
-                @artech.id (TikTok)
+                @arftech.id (TikTok)
               </li>
             </ul>
           </div>
@@ -92,7 +92,7 @@ export default function Footer() {
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-sm font-medium">
-            © 2026 <span className="text-brand">ARTECH</span> – Engineering Innovation. All rights reserved.
+            © 2026 <span className="text-brand">ARFTECH</span> – Engineering Innovation. All rights reserved.
           </p>
           
           <motion.button

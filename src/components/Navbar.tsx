@@ -34,7 +34,7 @@ export default function Navbar() {
             className="flex-shrink-0 flex items-center"
           >
             <span className="text-2xl font-bold tracking-tighter text-brand">
-              AR<span className="text-slate-900">TECH</span>
+              ARF<span className="text-slate-900">TECH</span>
             </span>
           </motion.div>
 

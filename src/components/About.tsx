@@ -63,7 +63,7 @@ export default function About() {
               Kreativitas di Bidang <span className="text-brand">Teknologi</span> & Inovasi Modern
             </h2>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              ARTECH adalah individu kreatif di bidang teknologi yang berfokus pada pengembangan software sederhana hingga menengah serta pengembangan project Internet of Things (IoT). Memiliki semangat inovasi dan berorientasi pada solusi teknologi modern.
+              ARFTECH adalah individu kreatif di bidang teknologi yang berfokus pada pengembangan software sederhana hingga menengah serta pengembangan project Internet of Things (IoT). Memiliki semangat inovasi dan berorientasi pada solusi teknologi modern.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

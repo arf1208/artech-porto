@@ -60,7 +60,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mb-1">Email</p>
-                  <p className="text-lg font-bold text-slate-900">hello@artech.id</p>
+                  <p className="text-lg font-bold text-slate-900">hello@arftech.id</p>
                 </div>
               </div>
               <div className="flex items-center gap-6 group">
@@ -96,7 +96,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-xs text-slate-400 font-bold uppercase tracking-widest mb-1">TikTok</p>
-                  <p className="text-lg font-bold text-slate-900">@artech.id</p>
+                  <p className="text-lg font-bold text-slate-900">@arftech.id</p>
                 </div>
               </div>
             </div>
