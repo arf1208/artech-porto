@@ -30,7 +30,7 @@ export default function Footer() {
             >
               <div className="w-12 h-12 rounded-xl bg-white p-1.5 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="https://image2url.com/r2/default/images/1772859811867-88d5f7bc-ed85-49fe-8970-51e013e62ea0.png" 
+                  src="https://image2url.com/r2/default/files/1772884639080-036b6c6f-ca24-4917-adc3-f84f17ff1de4.jpeg" 
                   alt="Smart School Logo" 
                   className="w-full h-full object-contain"
                   referrerPolicy="no-referrer"
