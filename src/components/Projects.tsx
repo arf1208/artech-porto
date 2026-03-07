@@ -11,7 +11,7 @@ const projects = [
     description: "Sistem monitoring kehadiran siswa dan guru berbasis RFID Card dan ESP32 dengan dashboard real-time.",
     fullDescription: "Sistem ini dirancang untuk mengotomatisasi pencatatan kehadiran di sekolah. Menggunakan ESP32 sebagai mikrokontroler utama dan pembaca RFID untuk identifikasi. Data dikirim secara real-time ke database dan ditampilkan melalui dashboard web yang interaktif. Fitur termasuk laporan harian, notifikasi kedatangan, dan manajemen data pengguna.",
     tags: ["ESP32", "RFID", "Web Dashboard", "IoT"],
-    image: "https://picsum.photos/seed/attendance/600/400",
+    image: "https://image2url.com/r2/default/images/1772883956239-75526543-9584-4e90-ad40-369bffac219b.blob",
     icon: <Cpu size={20} />
   },
   {

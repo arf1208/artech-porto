@@ -31,8 +31,16 @@ export default function Navbar() {
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex-shrink-0 flex items-center"
+            className="flex-shrink-0 flex items-center gap-3"
           >
+            <div className="w-10 h-10 rounded-lg bg-white p-1 flex items-center justify-center overflow-hidden border border-slate-100">
+              <img 
+                src="https://image2url.com/r2/default/images/1772859811867-88d5f7bc-ed85-49fe-8970-51e013e62ea0.png" 
+                alt="Smart School Logo" 
+                className="w-full h-full object-contain"
+                referrerPolicy="no-referrer"
+              />
+            </div>
             <span className="text-2xl font-bold tracking-tighter text-brand">
               ARF<span className="text-slate-900">TECH</span>
             </span>

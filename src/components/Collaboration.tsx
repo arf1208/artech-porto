@@ -45,19 +45,16 @@ export default function Collaboration() {
           >
             {/* Logo Container */}
             <div className="relative mb-10">
-              <div className="w-32 h-32 rounded-full bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:border-brand/30 transition-colors duration-500 overflow-hidden p-4">
-                {/* Stylized Logo Representation based on user upload */}
-                <div className="flex flex-col items-center">
-                  <span className="text-6xl font-serif italic font-black text-slate-900 group-hover:text-brand transition-colors leading-none">S</span>
-                  <div className="flex gap-1 mt-1">
-                    <div className="w-1.5 h-1.5 rounded-full bg-brand" />
-                    <div className="w-1.5 h-1.5 rounded-full bg-brand/60" />
-                    <div className="w-1.5 h-1.5 rounded-full bg-brand/30" />
-                  </div>
-                </div>
+              <div className="w-48 h-48 rounded-full bg-white flex items-center justify-center border border-slate-100 shadow-xl group-hover:border-brand/30 transition-all duration-500 overflow-hidden p-6">
+                <img 
+                  src="https://image2url.com/r2/default/images/1772859811867-88d5f7bc-ed85-49fe-8970-51e013e62ea0.png" 
+                  alt="Smart School Logo" 
+                  className="w-full h-full object-contain"
+                  referrerPolicy="no-referrer"
+                />
               </div>
-              <div className="absolute -bottom-2 -right-2 w-10 h-10 rounded-full bg-brand text-white flex items-center justify-center shadow-lg">
-                <ShieldCheck size={20} />
+              <div className="absolute -bottom-2 -right-2 w-12 h-12 rounded-full bg-brand text-white flex items-center justify-center shadow-lg border-4 border-white">
+                <ShieldCheck size={24} />
               </div>
             </div>
             

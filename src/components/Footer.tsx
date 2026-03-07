@@ -26,9 +26,19 @@ export default function Footer() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-3xl font-bold tracking-tighter mb-6"
+              className="flex items-center gap-4 mb-6"
             >
-              ARF<span className="text-brand">TECH</span>
+              <div className="w-12 h-12 rounded-xl bg-white p-1.5 flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://image2url.com/r2/default/images/1772859811867-88d5f7bc-ed85-49fe-8970-51e013e62ea0.png" 
+                  alt="Smart School Logo" 
+                  className="w-full h-full object-contain"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="text-3xl font-bold tracking-tighter">
+                ARF<span className="text-brand">TECH</span>
+              </div>
             </motion.div>
             <p className="text-slate-400 text-lg mb-8 max-w-md leading-relaxed">
               Engineering the Future with Innovation. Software Developer & IoT Enthusiast yang berdedikasi untuk menciptakan solusi teknologi modern.
@@ -72,7 +82,7 @@ export default function Footer() {
               </li>
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
-                hello@arftech.id
+                arftechh@gmail.com
               </li>
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
@@ -80,11 +90,11 @@ export default function Footer() {
               </li>
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
-                @arf1208 (Instagram)
+                @arftechh (Instagram)
               </li>
               <li className="text-slate-400 flex items-start gap-3">
                 <span className="text-brand mt-1">•</span>
-                @arftech.id (TikTok)
+                @arftechh (TikTok)
               </li>
             </ul>
           </div>
