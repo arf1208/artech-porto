@@ -27,13 +27,13 @@ const projects = [
   },
   {
     id: 4,
-    title: "Digital Cashier",
+    title: "Digital Smart Cashier",
     translatedTitle: "Kasir Digital",
     category: "Software Menengah",
     description: "Sistem kasir digital berbasis web untuk efisiensi transaksi dan manajemen stok.",
     fullDescription: "Aplikasi kasir digital ini dirancang untuk UMKM agar dapat mengelola transaksi dengan lebih profesional. Mendukung pencetakan struk, laporan penjualan periodik, dan sinkronisasi stok otomatis. Dibangun menggunakan stack modern untuk performa yang optimal.",
     tags: ["PHP", "TSX", "React", "HTML", "JS"],
-    image: "https://picsum.photos/seed/cashier/600/400",
+    image: "https://image2url.com/r2/default/files/1773428022431-29394dc7-bc21-46c4-9313-ad4071af8d14.jpeg",
     icon: <Layers size={20} />
   },
   {
