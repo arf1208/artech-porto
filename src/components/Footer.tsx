@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Github, Linkedin, Twitter, Instagram, ArrowUp, Music2 } from "lucide-react";
+import { Github, Linkedin, Twitter, Instagram, ArrowUp, Music2, MapPin, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -77,23 +77,23 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6">Contact Info</h4>
             <ul className="space-y-4">
               <li className="text-slate-400 flex items-start gap-3">
-                <span className="text-brand mt-1">•</span>
+                <MapPin size={18} className="text-brand mt-1 shrink-0" />
                 Lamongan, Indonesia
               </li>
               <li className="text-slate-400 flex items-start gap-3">
-                <span className="text-brand mt-1">•</span>
-                arftechh@gmail.com
+                <Mail size={18} className="text-brand mt-1 shrink-0" />
+                @arftechh
               </li>
               <li className="text-slate-400 flex items-start gap-3">
-                <span className="text-brand mt-1">•</span>
+                <Phone size={18} className="text-brand mt-1 shrink-0" />
                 +62 858 1268 2418
               </li>
               <li className="text-slate-400 flex items-start gap-3">
-                <span className="text-brand mt-1">•</span>
+                <Instagram size={18} className="text-brand mt-1 shrink-0" />
                 @arftechh (Instagram)
               </li>
               <li className="text-slate-400 flex items-start gap-3">
-                <span className="text-brand mt-1">•</span>
+                <Music2 size={18} className="text-brand mt-1 shrink-0" />
                 @arftechh (TikTok)
               </li>
             </ul>
@@ -102,7 +102,7 @@ export default function Footer() {
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-sm font-medium">
-            © 2026 <span className="text-brand">ARFTECH</span> – Arief Rahman. All rights reserved.
+            © 2026 <span className="text-brand">ARFTECH</span> – Arief R. Dev. All rights reserved.
           </p>
           
           <motion.button

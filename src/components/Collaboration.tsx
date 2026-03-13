@@ -29,7 +29,7 @@ export default function Collaboration() {
             Official Collaboration <span className="text-brand">Partner</span>
           </motion.h2>
           <p className="text-slate-500 max-w-2xl mx-auto">
-            Bekerja sama dengan perusahaan terkemuka untuk menghadirkan solusi teknologi masa depan.
+            Bekerja sama dengan komunitas terkemuka untuk menghadirkan solusi teknologi masa depan.
           </p>
         </div>
 
