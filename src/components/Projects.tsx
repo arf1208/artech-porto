@@ -55,7 +55,7 @@ const projects = [
     description: "Website portofolio modern dengan desain minimalis, animasi halus, dan responsif.",
     fullDescription: "Project ini adalah website yang sedang Anda lihat sekarang. Dibangun dengan fokus pada pengalaman pengguna (UX) dan estetika modern. Menggunakan React untuk komponen yang reaktif dan Tailwind CSS untuk styling yang cepat dan konsisten.",
     tags: ["HTML", "Tailwind CSS", "React"],
-    image: "https://picsum.photos/seed/web/600/400",
+    image: "https://image2url.com/r2/default/files/1773404922595-17d89263-ae84-4d2b-ace5-a7086b345032.png",
     icon: <Code size={20} />
   },
 ];

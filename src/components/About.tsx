@@ -49,51 +49,83 @@ export default function About() {
   return (
     <section id="about" className="py-24 bg-slate-50/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-12 items-start">
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="relative mx-auto lg:mx-0"
+          >
+            <div className="relative z-10 w-full max-w-[320px] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
+              <img 
+                src="https://image2url.com/r2/default/files/1773403201175-d905b21d-df60-4279-8c44-df63a0a800cf.jpeg" 
+                alt="Profile ARFTECH" 
+                className="w-full h-auto object-cover aspect-[4/5]"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            {/* Decorative elements */}
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-brand rounded-full -z-10 blur-xl opacity-10" />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-brand/10 text-brand text-xs font-semibold mb-6">
               About Me
             </div>
-            <h2 className="text-4xl font-bold mb-8 leading-tight">
+            
+            <div className="mb-6">
+              <h3 className="text-3xl font-bold text-slate-900 mb-1">Arief Rahman</h3>
+              <p className="text-brand font-semibold">Founder of ARFTECH</p>
+            </div>
+
+            <h2 className="text-2xl font-bold mb-6 leading-tight text-slate-800">
               Kreativitas di Bidang <span className="text-brand">Teknologi</span> & Inovasi Modern
             </h2>
-            <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              ARFTECH adalah individu kreatif di bidang teknologi yang berfokus pada pengembangan software sederhana hingga menengah serta pengembangan project Internet of Things (IoT). Memiliki semangat inovasi dan berorientasi pada solusi teknologi modern.
-            </p>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-white border border-slate-200 flex items-center justify-center shadow-sm">
+            <div className="space-y-4 mb-8">
+              <p className="text-lg text-slate-700 leading-relaxed font-medium">
+                Halo! Saya adalah pengembang di balik <span className="text-brand">ARFTECH</span>.
+              </p>
+              <p className="text-slate-600 leading-relaxed">
+                Saya adalah seorang pengembang yang berdedikasi untuk menciptakan solusi digital yang inovatif dan efisien. Fokus saya mencakup pengembangan perangkat lunak (Web & Desktop) serta integrasi sistem cerdas melalui Internet of Things (IoT).
+              </p>
+              <p className="text-slate-600 leading-relaxed">
+                Dengan pengalaman dalam membangun berbagai aplikasi skala menengah, saya selalu berusaha menghadirkan teknologi yang tidak hanya fungsional, tetapi juga memberikan pengalaman pengguna yang optimal dan dampak positif yang nyata bagi penggunanya.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
+              <div className="flex gap-4 p-4 rounded-xl bg-white border border-slate-100 shadow-sm">
+                <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-brand/10 flex items-center justify-center">
                   <Code2 className="text-brand" size={20} />
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900">Software Dev</h4>
-                  <p className="text-sm text-slate-500 italic">Web & Desktop Solutions</p>
+                  <p className="text-xs text-slate-500">Web & Desktop</p>
                 </div>
               </div>
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-white border border-slate-200 flex items-center justify-center shadow-sm">
+              <div className="flex gap-4 p-4 rounded-xl bg-white border border-slate-100 shadow-sm">
+                <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-brand/10 flex items-center justify-center">
                   <Cpu className="text-brand" size={20} />
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900">IoT Enthusiast</h4>
-                  <p className="text-sm text-slate-500 italic">Hardware & Embedded Systems</p>
+                  <p className="text-xs text-slate-500">Embedded Systems</p>
                 </div>
               </div>
             </div>
-          </motion.div>
 
-          <div className="grid grid-cols-2 gap-6">
-            <Counter value={10} label="Project Software" icon={Code2} />
-            <Counter value={5} label="Project IoT" icon={Cpu} />
-            <Counter value={2} label="Tahun Pengalaman" icon={Rocket} />
-            <Counter value={50} label="Happy Clients" icon={Users} />
-          </div>
+            <div className="grid grid-cols-2 gap-4">
+              <Counter value={10} label="Project Software" icon={Code2} />
+              <Counter value={5} label="Project IoT" icon={Cpu} />
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>

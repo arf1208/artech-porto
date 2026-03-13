@@ -107,7 +107,7 @@ export default function Hero() {
                     <Code className="text-brand" />
                   </div>
                   <div className="text-left">
-                    <h3 className="font-bold text-lg">System Arftech</h3>
+                    <h3 className="font-bold text-lg">Arftech System</h3>
                     <p className="text-sm text-slate-500">Engineering Solutions</p>
                   </div>
                 </div>

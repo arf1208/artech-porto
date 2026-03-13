@@ -102,7 +102,7 @@ export default function Footer() {
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-sm font-medium">
-            © 2026 <span className="text-brand">ARFTECH</span> – Engineering Innovation. All rights reserved.
+            © 2026 <span className="text-brand">ARFTECH</span> – Arief Rahman. All rights reserved.
           </p>
           
           <motion.button
