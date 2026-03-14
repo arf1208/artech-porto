@@ -59,7 +59,7 @@ export default function About() {
           >
             <div className="relative z-10 w-full max-w-[320px] rounded-3xl overflow-hidden shadow-xl border-4 border-white">
               <img 
-                src="https://image2url.com/r2/default/files/1773403201175-d905b21d-df60-4279-8c44-df63a0a800cf.jpeg" 
+                src="https://image2url.com/r2/default/files/1773516746218-64507771-f41f-441a-8c4d-3dd06fdd8402.jpeg" 
                 alt="Profile ARFTECH" 
                 className="w-full h-auto object-cover aspect-[4/5]"
                 referrerPolicy="no-referrer"
