@@ -33,7 +33,7 @@ const projects = [
     description: "Sistem kasir digital berbasis web untuk efisiensi transaksi dan manajemen stok.",
     fullDescription: "Aplikasi kasir digital ini dirancang untuk UMKM agar dapat mengelola transaksi dengan lebih profesional. Mendukung pencetakan struk, laporan penjualan periodik, dan sinkronisasi stok otomatis. Dibangun menggunakan stack modern untuk performa yang optimal.",
     tags: ["PHP", "TSX", "React", "HTML", "JS"],
-    image: "https://image2url.com/r2/default/files/1773428022431-29394dc7-bc21-46c4-9313-ad4071af8d14.jpeg",
+    image: "https://image2url.com/r2/default/files/1773495612603-a6af8522-e015-4262-9fb4-9cd06e040c87.png",
     icon: <Layers size={20} />
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     description: "Dashboard analitik untuk memantau data kehadiran secara real-time dan menghasilkan laporan otomatis.",
     fullDescription: "Dashboard ini merupakan pusat kontrol untuk sistem absensi. Menampilkan statistik kehadiran harian, mingguan, dan bulanan dalam bentuk grafik yang mudah dipahami. Dilengkapi dengan fitur ekspor laporan ke PDF/Excel, manajemen data user, dan log aktivitas sistem untuk transparansi data.",
     tags: ["React", "Node.js", "Chart.js", "MySQL"],
-    image: "https://picsum.photos/seed/dashboard/600/400",
+    image: "https://image2url.com/r2/default/files/1773497023557-409ab55e-4748-4f61-b47b-341d2494ee81.png",
     icon: <Layers size={20} />
   },
   {
