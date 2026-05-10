@@ -4,12 +4,12 @@ import { Award, ExternalLink, Calendar, ShieldCheck } from "lucide-react";
 const certificates = [
   {
     id: 1,
-    title: "Full Stack Web Development",
-    issuer: "Dicoding Indonesia",
-    date: "Januari 2024",
-    image: "https://picsum.photos/seed/cert1/600/400",
-    link: "#",
-    category: "Professional"
+    title: "Pelatihan Teknologi dan Komunikasi",
+    issuer: "UPT.TIKP Dinas Pendidikan Provinsi Jawa Timur Indonesia",
+    date: "Oktober 2025",
+    image: "https://lh3.googleusercontent.com/d/18wgeQc1Y9eiI4_F4P_NAvNJHNF_21EuF",
+    link: "https://drive.google.com/file/d/18wgeQc1Y9eiI4_F4P_NAvNJHNF_21EuF/view?usp=drivesdk",
+    category: "Junior"
   },
   {
     id: 2,
