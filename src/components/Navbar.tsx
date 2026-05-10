@@ -15,6 +15,7 @@ export default function Navbar() {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
+    { name: "E-Certificate", href: "#certificates" },
     { name: "Collaboration", href: "#collaboration" },
     { name: "Contact", href: "#contact" },
   ];
